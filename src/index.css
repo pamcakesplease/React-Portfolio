@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.main{
+#main{
     max-height: 100vh;
     max-width: 100vw;
   }
@@ -10,3 +10,65 @@
   #navbar:hover{
     border-bottom: 2px solid black;
   }
+
+  h1 {
+    font-family: "Bebas Neue", sans-serif;
+    text-align: left;
+  }
+
+  h2 {
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 4vh;
+  }
+
+  #about {
+    font-size: 2.5vh;
+  }
+
+  #picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+  }
+
+  #brands {
+   text-align: center;
+   margin: 15px;
+  }
+
+  i:hover{
+    transform: scale(1.15) rotate(-10deg);
+  }
+
+  #projects {
+    margin-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  #project-title {
+    font-size: 3vh;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: left;
+  }
+
+  #project-image {
+    border-radius: 20px;
+  }
+
+  #project-image:hover{
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+
+  @media screen and (max-width: 768px) {
+    /* Adjust background properties for smaller screens */
+    .main {
+        background-size: contain;
+        background-position: top;
+        background-attachment: fixed;
+    }
+}
+   
