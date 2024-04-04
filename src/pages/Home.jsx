@@ -15,7 +15,7 @@ const Home = () => {
     <div className="container mx-auto">
       <h1 className="text-5xl font-bold tracking-wide text-center">Pamela Pimentels Portfolio</h1>
       <h2 id="aboutMe">About Me</h2>
-      <img src="../src/assets/me.png" className="object-cover h-80 w-96" id="picture"></img>
+      <img src="/src/assets/me.png" className="object-cover h-80 w-96" id="picture"></img>
 
       <div id="brands">
       <a href="https://twitter.com/PamcakesPlease"><i class="fa-brands fa-twitter fa-2xl fa-fw"></i></a>
@@ -32,13 +32,13 @@ const Home = () => {
       <div class="gap-8 columns-3" id="projects">
   <p id="project-title">Dopameme</p>
   <a href ="https://jhettortle.github.io/Project-01">
-  <img class="h-60 w-96 aspect-square" id="project-image" src="../src/assets/project-1.png" /></a>
+  <img class="h-60 w-96 aspect-square" id="project-image" src="/src/assets/project-1.png" /></a>
   <p id="project-title">Weather Dashboard</p>
   <a href ="https://pamcakesplease.github.io/Weather-Dashboard/">
-  <img class="h-60 w-96 aspect-square" id="project-image" src="../src/assets/project-2.png" /></a>
+  <img class="h-60 w-96 aspect-square" id="project-image" src="/src/assets/project-2.png" /></a>
   <p id="project-title">GGz</p>
   <a href ="https://github.com/Spaghedward/GGz?tab=readme-ov-file">
-  <img class="h-60 w-96 aspect-square" id="project-image" src="../src/assets/project-3.png" /></a>
+  <img class="h-60 w-96 aspect-square" id="project-image" src="/src/assets/project-3.png" /></a>
 </div>
     </div>
     </body>
