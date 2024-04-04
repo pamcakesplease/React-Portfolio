@@ -24,7 +24,7 @@ const Home = () => {
       <a href="https://www.twitch.tv/pamcakesplease"><i class="fa-brands fa-twitch fa-2xl fa-fw"></i></a>
       </div>
       <p className="text-lg text-center text-balance leading-loose" id="about"> Hello! My name is Pamela Pimentel and welcome to my portfolio.
-   I am a fairly new web develepor with a passion for front end. I hope to one day get my foot in the door as a 
+   I am a fairly new web developer with a passion for front end. I hope to one day get my foot in the door as a 
    junior web developer. Feel free to take a look at my projects, links, and resume! Click the folder below to see all
    of my repositories over on Github.</p>
 
